@@ -12,6 +12,11 @@ import { OutputNode } from './nodes/outputNode';
 import { TextNode } from './nodes/textNode';
 
 import 'reactflow/dist/style.css';
+import { AudioNode } from './nodes/audioNode';
+import { VideoNode } from './nodes/videoNode';
+import { FileNode } from './nodes/fileNode';
+import { CustomNode } from './nodes/customNode';
+import { ImageNode } from './nodes/imageNode';
 
 const gridSize = 20;
 const proOptions = { hideAttribution: true };
