@@ -10,7 +10,7 @@ export const SubmitButton = () => {
         const edges = getEdges();
 
         try {
-            const response = await fetch('http://backend-react-flow.vercel.app/pipelines/parse', {
+            const response = await fetch('https://backend-react-flow.vercel.app/pipelines/parse', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
